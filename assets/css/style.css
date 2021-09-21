@@ -24,7 +24,6 @@ header {
 ul li {
   display: inline-block;
   text-align: center;
-  
 }
 
 a {
@@ -41,14 +40,14 @@ a {
   border: 1px solid grey;
 }
 
-li:hover {
-  box-shadow: -10px 10px  rgba(0,0,0,0.6);
-  border-radius: 50%;
+a:hover {
+  box-shadow: -10px 8px rgba(0, 0, 0, .4);
 }
 
 /*********MAIN**********/
 section {
   height: 100vh;
+  position: relative;
 }
 
 #top {
@@ -65,22 +64,19 @@ section {
 
 /*immagine e testo*/
 .container {
-  position: relative;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
   width: 60%;
-  height: 100%;
-  margin: 0 auto;
-  background-size: contain;
 }
 
 .content-image img{
-  position: absolute;
-  bottom: 30%;
   width: 100%;
+  /*background-size: contain;*/
 }
 
 .content-text {
-  position: absolute;
-  bottom: 18%;
   width: 100%;
   color: yellow;
   text-align: center;
@@ -89,7 +85,7 @@ section {
 }
 
 .content-text h2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .content-text.green {
