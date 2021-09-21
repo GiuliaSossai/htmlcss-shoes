@@ -24,9 +24,7 @@ header {
 ul li {
   display: inline-block;
   text-align: center;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 1px solid grey;
+  
 }
 
 a {
@@ -38,10 +36,14 @@ a {
   height: 50px;
   line-height: 50px;
   display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
 }
 
-a:hover {
-  color: blue;
+li:hover {
+  box-shadow: -10px 10px  rgba(0,0,0,0.6);
+  border-radius: 50%;
 }
 
 /*********MAIN**********/
@@ -78,7 +80,7 @@ section {
 
 .content-text {
   position: absolute;
-  bottom: 20%;
+  bottom: 18%;
   width: 100%;
   color: yellow;
   text-align: center;
