@@ -19,7 +19,6 @@ header {
   z-index: 500;
   text-align: right;
   width: 100%;
-  background-color: #fff;
 }
 
 ul li {
@@ -47,7 +46,7 @@ a:hover {
 
 /*********MAIN**********/
 section {
-  height: 900px;
+  height: 100vh;
 }
 
 #top {
@@ -65,31 +64,34 @@ section {
 /*immagine e testo*/
 .container {
   position: relative;
-  width: 50%;
+  width: 60%;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 5%;
-  background-color: #fff;
-  
+  background-size: contain;
 }
 
 .content-image img{
   position: absolute;
-  bottom: 15%;
+  bottom: 30%;
   width: 100%;
 }
 
 .content-text {
   position: absolute;
-  bottom: 5%;
+  bottom: 20%;
   width: 100%;
-  font-size: 26px;
   color: yellow;
   text-align: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  
 }
 
+.content-text h2 {
+  font-size: 3vw;
+}
+
+.content-text.green {
+  color: green;
+}
 
 
