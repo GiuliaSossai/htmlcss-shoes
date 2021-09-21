@@ -3,3 +3,93 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+/****************HEADER**********/
+header {
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  text-align: right;
+  width: 100%;
+  background-color: #fff;
+}
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+}
+
+a:hover {
+  color: blue;
+}
+
+/*********MAIN**********/
+section {
+  height: 900px;
+}
+
+#top {
+  background-color: red;
+}
+
+#middle {
+  background-color: green;
+}
+
+#bottom {
+  background-color: yellow;
+}
+
+/*immagine e testo*/
+.container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  background-color: #fff;
+  
+}
+
+.content-image img{
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+}
+
+.content-text {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  font-size: 26px;
+  color: yellow;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+
+
+
